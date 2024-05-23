@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/*Header Section*/
+#logo {
+    width: 20%;
+    height: 20%;
+    background-color: red;
+}
+
+.main-nav {
+    width: 100%;
+    position: fixed;
+    text-align: right;
+    background-color: white;
+    padding-top: 1rem;
+    z-index: 2
+    
+}
+
+.main-nav li {
+    display: inline-block;
+    position: relative;
+    right: 8rem;
+    padding-left: 2rem;
+}
+
+/*Main Section*/
+
+img {
+    width: 20%;
+    height: 20%;
+    position: relative;
+    top: 5rem;
+    float: left;
+    margin-left: 2rem;
+    border-radius: 5%;
+}
+
+#aboutme {
+    position: relative;
+    top: 5rem;
+    left: 2rem;
+    max-width: 75rem;
+    min-width: 20rem;
+}
+
+article h1 {
+    font-family: "Caveat", cursive;
+    font-size: 3rem;
+    color: blue;
+}
+
+article p {
+    margin-top: 2rem;
+}
+
+.socialmedia li {
+    height: 15%;
+    width: 15%;
+    list-style-type: none;
+    position: relative;
+    bottom: 8rem;
+    left: 15.75rem;
+}
+
+/*Projects Subsection*/
+.project-sect {
+    position: relative;
+    top: 16rem;
+    height: 100rem;
+}
+
+h2 {
+    background-color: white;
+    width: 10rem;
+    height: 3rem;
+    position: relative;
+    bottom: 1rem;
+    margin: 0 auto;
+    font-family: Caveat, cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: blue;
+}
+
+#project-header {
+    border-top: 1px dotted grey;
+    position: sticky;
+    top: 3.5rem;
+}
+
+.project-nav {
+    width: 26.25rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.project-nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.project {
+    border-bottom: 1px dotted red;
+    height: 25rem;
+}
+
+/*Footer Section*/
+footer {
+    position: relative;
+    top: 25rem;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
